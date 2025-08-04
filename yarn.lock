@@ -1484,22 +1484,17 @@
     "@types/node" "*"
     iconv-lite "^0.6.3"
 
-"@types/node@*":
-  version "18.7.21"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.21.tgz#63ee6688070e456325b6748dc492a7b948593871"
-  integrity sha512-rLFzK5bhM0YPyCoTC8bolBjMk7bwnZ8qeZUBslBfjZQou2ssJdWslx9CZ8DGM+Dx7QXQiiTVZ/6QO6kwtHkZCA==
-
-"@types/node@^14.0.0":
-  version "14.18.30"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.30.tgz#34c8d934fe86b6ee5c21c08fc1b7858599c84a5a"
-  integrity sha512-8OEyg4oc/CqN5+LbInKNLA8MfbGzbC+k8lVPePXazuwEVrVeQ9gwMDX00HJwWbC7syc1FWRU6Mow0Lm+mibHAQ==
-
-"@types/node@^22.9.0":
+"@types/node@*", "@types/node@^22.9.0":
   version "22.16.0"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-22.16.0.tgz#352bc4951fd089df32f2b6412a61d339b67ded8b"
   integrity sha512-B2egV9wALML1JCpv3VQoQ+yesQKAmNMBIAY7OteVrikcOcAkWm+dGL6qpeCktPjAv6N1JLnhbNiqS35UpFyBsQ==
   dependencies:
     undici-types "~6.21.0"
+
+"@types/node@^14.0.0":
+  version "14.18.30"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.30.tgz#34c8d934fe86b6ee5c21c08fc1b7858599c84a5a"
+  integrity sha512-8OEyg4oc/CqN5+LbInKNLA8MfbGzbC+k8lVPePXazuwEVrVeQ9gwMDX00HJwWbC7syc1FWRU6Mow0Lm+mibHAQ==
 
 "@types/nodemailer@*":
   version "6.4.6"
@@ -1518,10 +1513,10 @@
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
-"@types/smtp-server@^3.5.10":
-  version "3.5.10"
-  resolved "https://registry.yarnpkg.com/@types/smtp-server/-/smtp-server-3.5.10.tgz#06d0338aea519469529847a12b0903678fdd6bea"
-  integrity sha512-i3Jx7sJ2qF52vjaOf3HguulXlWRFf6BSfsRLsIdmytDyVGv7KkhSs+gR9BXJnJWg1Ljkh/56Fh1Xqwa6u6X7zw==
+"@types/smtp-server@^3.5.11":
+  version "3.5.11"
+  resolved "https://registry.yarnpkg.com/@types/smtp-server/-/smtp-server-3.5.11.tgz#362ab8fa2dc873c5f6c7aef9eb0a2f111ac92341"
+  integrity sha512-6xuiuS147ZpD0Z+pqUJSSxXR29mPlv52EkjOGgoYvVAL2NLsJEvYOYlIwAx63SqCVAq+KtnZ7CYY25an4d77aw==
   dependencies:
     "@types/node" "*"
     "@types/nodemailer" "*"
