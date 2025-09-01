@@ -1,5 +1,3 @@
-import escapeStringRegexp from 'escape-string-regexp';
-
 export function shouldIgnore(subject: string): boolean {
   const raw = process.env.IGNORE_SUBJECT_REGEX;
   if (!raw) return false;
@@ -13,8 +11,7 @@ export function shouldIgnore(subject: string): boolean {
 
   let re: RegExp;
   try {
-    const safePattern = escapeStringRegexp(trimmed);
-    re = new RegExp(safePattern, "i");
+    re = new RegExp(trimmed, "i"); // no escaping
   } catch {
     console.warn(`Invalid IGNORE_SUBJECT_REGEX: ${raw}`);
     return false;
