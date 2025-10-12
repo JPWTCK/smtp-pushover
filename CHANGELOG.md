@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/JPWTCK/smtp-pushover/compare/v1.2.0...v1.2.1) (2025-10-12)
+
+
+### Bug Fixes
+
+* package.json & yarn.lock to reduce vulnerabilities ([7421a02](https://github.com/JPWTCK/smtp-pushover/commit/7421a02d06d015b7ace8d630e448cb448d4e321a))
+
 # [1.2.0](https://github.com/JPWTCK/smtp-pushover/compare/v1.1.0...v1.2.0) (2025-09-01)
 
 
