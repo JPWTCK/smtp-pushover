@@ -10,9 +10,9 @@
     "sendmail": "echo -e \"Subject: subject\\n\\ntext\" | msmtp -v --host localhost --port 2525 --from from@test.com to@test.com"
   },
   "dependencies": {
-    "mailparser": "^3.7.4",
+    "mailparser": "^3.7.5",
     "pushover-notifications": "^1.2.3",
-    "smtp-server": "^3.13.6"
+    "smtp-server": "^3.15.0"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
